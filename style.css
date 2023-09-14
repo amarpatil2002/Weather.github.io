@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.container{
+    width: 280px;
+    background-color: rgb(156, 213, 227);
+    padding:25px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 2px 2px 5px gray;
+    /* border: 2px solid rgb(12, 12, 12); */
+}
+
+.search{
+    width: 100%;
+    /* border: 2px solid rgb(11, 11, 11); */
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    width: 80%;
+    border-radius: 20px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    box-shadow: 2px 2px 10px gray;
+    
+}
+input::placeholder{
+    color: rgb(10, 10, 10);
+}
+
+button{
+    width: 12%;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    box-shadow: 2px 2px 10px gray;
+    
+}
+.main{
+    padding: 10px;
+    text-align: center;
+    /* border: 2px solid rgb(236, 240, 236); */
+}
+
+.main img{
+   width: 200px;
+
+}
+
+.main .meter{
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.main h2{
+    font-family:Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.Hum-Wind{
+    /* border: 2px solid rgb(20, 243, 20); */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.Hum-Wind i{
+    font-size: 26px;
+}
+
+.Humidity,.Wind{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
